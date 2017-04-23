@@ -1,0 +1,183 @@
+/*GENERAL*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+[class*="col-"] {
+    width: 100%;
+}
+.btn-dark{
+    background-color: #333;
+    color:#fff;
+    border:none;
+    width:200px;
+    height:50px;
+    margin:5px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:1em;
+    outline:none;
+    cursor:pointer; 
+}
+.btn-transparent{
+    background-color: transparent;
+    color:#fff;
+    border:2px solid #fff;
+    width:200px;
+    height:50px;
+    margin:5px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:1em;
+    outline:none;
+    cursor:pointer; 
+}
+.bold-title{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	line-height: 2;
+}
+.text{
+	font-family: 'Montserrat', sans-serif;
+	font-size:1em;
+	font-weight: 300;
+	padding: 20px 0;
+	line-height: 1.5;
+}
+.center-block{
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*MAIN-BANNER*/
+.wrap-main-banner{
+	width:100%;
+	position:relative;
+	text-align:center;
+	min-height:700px;
+	overflow:hidden;
+}
+.main-banner{
+	background-image: url('../assets/trench-coat-london-breeze-main_20160614110422.jpg');        
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	min-height:700px;
+}  
+.main-banner-text {
+	position:absolute;	
+	width:100%;
+	top: 25%;
+	color:#000;
+	font-size:2.5em;
+	padding:0 15px;
+}
+
+/*PRÁTICO*/
+.wrap-2 {
+    width: 70%;
+    padding: 30px 0;
+}
+.wrap-2 > h2{
+	font-size:2.5em;
+}
+
+/*CLÁSSICO*/
+.wrap-3{
+	padding: 30px 0;
+	position:relative;
+}
+.wrap-3 .bold-title {
+    font-size: 2em;
+    text-align: left;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+.img-responsive-3 {
+    background-image: url(../assets/trench-coat-london-breeze-modelo-02_20160615140430.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 500px;
+    margin-top: -40px;
+} 
+
+/*CASUAL*/
+.wrap-4{
+	text-align: center;
+	margin:0 auto;
+	padding: 30px 0 ;
+	position:relative;
+}
+.img-responsive-4{
+	background-image: url('../assets/trench-coat-london-breeze-modelo-01_20160614143315.jpg');        
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	height:500px;
+} 
+.wrap-4 .bold-title {
+    text-align: right;
+    font-size: 2.5em;
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+
+/*PRETO*/
+.wrap-5{
+	background-color: #333;
+	margin:0 auto;
+	padding: 30px 0 ;
+	position:relative;
+	text-align: center;
+	height:400px;
+	margin-top: 50px;
+}
+.text-block {
+    width: 100%;
+    padding: 30px 50px;
+    position:absolute;
+    right:0;
+    top:10px;
+    color:#fff;
+    z-index:2;
+}
+ .text-block .bold-title{
+	font-size:2.5em;
+}
+.img-responsive-5 {
+    background-image: url(../assets/trench-coat-london-breeze-preto_20160614124428.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    position: relative;
+    top: -130px;
+    left:-140px;
+    height: 600px;
+    z-index: 1;
+}
+
+/*VINHO*/
+.img-responsive-6{
+	background-image: url('../assets/trench-coat-london-breeze-red_20160614110602.jpg');        
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height:600px;
+	overflow:hidden;
+}
+.wrap-content-6 {
+   width: 100%;
+   color:#fff;
+   padding: 150px 30px;
+}
+.wrap-content-6 .bold-title{
+	font-size:2.5em;
+}
+
+
