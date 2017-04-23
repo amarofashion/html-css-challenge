@@ -1,0 +1,182 @@
+@media only screen and (min-width: 360px) {
+	/*CLÁSSICO*/
+	.wrap-3 .bold-title {
+	top: -45px;
+	}
+	/*CASUAL*/
+	.wrap-4 .bold-title {
+    bottom: -10px;
+	}
+	/*PRÁTICO*/
+	.wrap-2 {
+    margin-bottom: 20px;
+	}
+}
+
+@media only screen and (min-width: 400px) {
+	/*MAIN BANNER*/
+	.main-banner-text {
+    font-size: 3.5em;
+	}
+	/*CLÁSSICO*/
+	.wrap-3 .bold-title {
+    font-size: 3em;
+    top: -40px;
+	}
+	.img-responsive-3 {
+	height: 600px;
+	margin-top: -50px;
+	}
+	/*CASUAL*/
+	.wrap-4 .bold-title {
+	font-size: 3em;
+	bottom: 0;
+	right: 10px;
+	}
+	.img-responsive-4{
+	height:600px;
+	} 
+	/*PRETO*/
+	.wrap-5{
+	height:500px;
+	}
+	.img-responsive-5 {
+    top: -80px;
+	}
+	.text-block {
+    top:50px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.col-5{
+	width:50%;
+	display:block;
+	float:left;
+	}
+	.clear {
+    clear: both;
+	}
+	/*MAIN BANNER*/
+	.main-banner-text {
+    font-size: 4em;
+	}
+	/*CLÁSSICO*/
+	.wrap-3 {
+    padding: 100px 0;
+	}
+	.wrap-3 .bold-title{
+ 	font-size: 4em;
+    letter-spacing: 0.7em;
+    top: -30px;
+    z-index: 1;
+	}
+	.img-responsive-3{
+	height:500px;
+	margin-bottom: 50px;
+	}  
+	/*CASUAL*/
+	.wrap-4 .bold-title {
+    text-align: right;
+    font-size: 4em;
+    position: relative;
+    bottom: 10px;
+    right: 30px;
+	}
+	/*PRETO*/
+	.wrap-content-5{
+	width:60%;
+	height:500px;
+	position:absolute;
+	top:0;
+	padding-top:30px;
+	}
+	.text-block {
+    width: 50%;
+    padding: 30px 0 0 0;
+	}
+	.img-responsive-5 {
+	background-position: center;
+	margin-left: 20%;
+	}
+	/*VINHO*/
+	.wrap-content-6 {
+    width: 40%;
+    color:#fff;
+	}
+}
+
+@media only screen and (min-width: 991px){
+	/*CLÁSSICO*/
+	.wrap-3 .bold-title {
+    font-size: 6em;
+	}
+	/*CASUAL*/
+	.wrap-4 .bold-title{
+    font-size: 4.6em;
+    letter-spacing: 45px;
+	}
+}
+
+@media only screen and (min-width: 1280px){
+	/*MAIN BANNER*/
+	.wrap-main-banner{
+	min-height:1000px;
+	}
+	.main-banner{
+	min-height:1000px;
+	} 
+	.main-banner-text {
+    font-size: 5em;
+	}
+	/*PRÁTICO*/
+	.wrap-2 {
+    width: 50%;
+	}
+	.wrap-2 > h2 {
+    font-size: 3.5em;
+	}
+	/*CLÁSSICO*/
+	.wrap-3 .bold-title {
+	font-size: 6em;
+	}
+	/*CASUAL*/
+	.wrap-4 .bold-title {
+    font-size: 6em;
+	}
+	.img-responsive-4{
+	height:800px;
+	} 
+	/*PRETO*/
+	.text-block {
+    width: 40%;
+    right: 10%;
+	}
+	/*VINHO*/
+	.wrap-content-6 {
+    width: 25%;
+	}
+}
+
+@media only screen and (min-width: 1824px){
+	.text {
+	padding: 20px 40px;
+	}
+	/*PRÁTICO*/
+	.wrap-2 {
+	padding: 60px 0;
+	}
+	/*CLÁSSICO*/
+	.wrap-3 .bold-title {
+	font-size: 9em;
+	top: -80px;
+	}
+	/*CASUAL*/
+	.wrap-4 .bold-title {
+    font-size: 8em;
+	}
+	.img-responsive-4 {
+    background-position: right;
+    margin-right: 100px;
+	}
+}
